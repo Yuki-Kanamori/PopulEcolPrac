@@ -75,14 +75,4 @@
 ### 9.2.1 Development of a Population Model
 - デモグラフィーと個体群の成長をリンクするモデルを作成（射影行列モデル）
 - 繁殖前の調査で得られたデータで，2つの年齢クラス（N_{1}とN_{2+}）を持つage-structuredモデルを使ってメスの個体群動態を記述
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
+N_{1, t+1} = N_{1, t}*f_{t}/2*s_{j, t} + N_{2+, t}*f_{t}/2*s_{j, t}
